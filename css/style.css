@@ -1,0 +1,67 @@
+h5{color:red;
+font-size:100pt;}
+h1{color:red;
+	font-size:100pt;}
+h2{color:purple;
+	font-size:20pt;}
+h3{color:blue;font-style:italic;}
+h4{color:blue;font-family: Helvetica Neue;font-size:50pt;font-style:thin;}
+h6{color:purple;font-family:Dosis;font-style:thin;font-size:60pt;}
+<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+#number-one{
+	color:blue;
+	font-family:Dosis;
+	font-size:20pt;}
+.multiple{
+	color:blue;
+	font-size:70pt;
+}
+#number-two{
+	position:relative;
+	width:100%;
+	float:right;
+}
+#my-div{
+	position:fixed;
+	width:100vw;
+	height:200px;
+	background-color:rgba(23,33,152,0.6);
+	top:0;
+}
+#moving-div1{
+	position:relative;
+	width:30vw;
+	height:40px;
+	left:30vw;
+	font-size:50px;
+}
+#number-three{
+	width:60vw;
+	height:80px;
+	background-color:rgba(123,104,238,6);
+}
+#number-four{
+	width:70vw;
+	height:60px;
+	background-color:rgba(165,42,42,0.7);
+	position:relative;
+}
+#number-five{
+	width:40vw;
+	height:50px;
+	background-color:rgba(0,0,139,0.3);
+	position:relative;
+}
+#number-six{
+	width:200vw;
+	height:80px;
+	background-color:rgba(255,165,0,1);
+}
+#translate{
+	width:100px;
+	height:100px;
+	background-color:rgba(205,133,63,0.5);
+	transition:width 2s ease-in;
+	{background-color:red;left:0px;top:0px;}
+	{background-color:yellow;left:200px;top:200px;transform:rotate(90deg);
+}
